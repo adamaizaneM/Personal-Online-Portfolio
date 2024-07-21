@@ -1,136 +1,87 @@
 /* Reset default styles and set global styles */
 body {
     font-family: Arial, sans-serif;
-    /* Use Arial or a sans-serif font family */
     line-height: 1.6;
-    /* Set the line height for better readability */
     margin: 0;
-    /* Remove default margin */
     padding: 0;
-    /* Remove default padding */
     color: #333;
-    /* Set text color */
     background-color: #f4f4f4;
-    /* Set background color */
 }
 
 /* Styling for navigation bar */
 nav {
     background: #333;
-    /* Set background color for navigation bar */
     color: #fff;
-    /* Set text color for navigation links */
     padding: 10px 0;
-    /* Add padding to the top and bottom of the navigation bar */
 }
 
 /* Styling for navigation links */
 nav ul {
     list-style: none;
-    /* Remove default list styles */
     padding: 0;
-    /* Remove default padding */
     display: flex;
-    /* Use flexbox for horizontal alignment */
     justify-content: space-around;
-    /* Evenly distribute navigation links */
 }
 
 nav ul li {
     display: inline;
-    /* Display navigation links inline */
-    margin-right: 10px;
-    /* Add right margin between navigation links */
 }
 
 nav ul li a {
     color: #fff;
-    /* Set text color for navigation links */
     text-decoration: none;
-    /* Remove underline from navigation links */
 }
 
 /* Styling for sections */
 section {
     padding: 20px;
-    /* Add padding inside sections */
     margin: 20px;
-    /* Add margin around sections */
     background: #fff;
-    /* Set background color for sections */
     border-radius: 5px;
-    /* Add border radius for rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Add box shadow for depth effect */
 }
 
 /* Styling for headings */
 h1,
 h2 {
     color: #333;
-    /* Set text color for headings */
 }
 
 /* Styling for social media links */
-.linkedin-link {
-    display: flex;
-    /* Use flexbox for horizontal alignment */
-    align-items: center;
-    /* Center items vertically */
-    text-decoration: none;
-    /* Remove underline from links */
-    color: #1e90ff;
-    /* Set text color for links */
-    font-size: 18px;
-    /* Set font size for links */
-}
-
+.linkedin-link,
 .github-link {
     display: flex;
-    /* Use flexbox for horizontal alignment */
     align-items: center;
-    /* Center items vertically */
     text-decoration: none;
-    /* Remove underline from links */
     color: #1e90ff;
-    /* Set text color for links */
     font-size: 18px;
-    /* Set font size for links */
 }
 
 /* Styling for hover effect on social media links */
 .linkedin-link:hover,
 .github-link:hover {
     text-decoration: underline;
-    /* Underline links on hover */
 }
 
 /* Styling for social media icons */
 .linkedin-icon,
 .github-profile {
     width: 24px;
-    /* Set width of icons */
     height: 24px;
-    /* Set height of icons */
     margin-right: 8px;
-    /* Add right margin between icons and text */
 }
 
 /* Styling for project sections */
 .project {
     margin-bottom: 20px;
-    /* Add bottom margin to separate projects */
 }
 
 /* Styling for project headings and paragraphs */
 .project h3 {
     margin: 0;
-    /* Remove margin for headings */
     padding: 0;
-    /* Remove padding for headings */
 }
 
 .project p {
     margin: 5px 0;
-    /* Add margin top and bottom for paragraphs */
 }
