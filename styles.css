@@ -1,0 +1,87 @@
+/* Reset default styles and set global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Styling for navigation bar */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Styling for navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for headings */
+h1,
+h2 {
+    color: #333;
+}
+
+/* Styling for social media links */
+.linkedin-link,
+.github-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1e90ff;
+    font-size: 18px;
+}
+
+/* Styling for hover effect on social media links */
+.linkedin-link:hover,
+.github-link:hover {
+    text-decoration: underline;
+}
+
+/* Styling for social media icons */
+.linkedin-icon,
+.github-profile {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+/* Styling for project sections */
+.project {
+    margin-bottom: 20px;
+}
+
+/* Styling for project headings and paragraphs */
+.project h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.project p {
+    margin: 5px 0;
+}
